@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
+    // "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -13,7 +13,9 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "@dcloudio/types/uni-app"
+      "@dcloudio/types/uni-app",
+      "vue/types",
+      "vue-class-component/lib"
     ],
     "paths": {
       "@/*": [
@@ -27,9 +29,15 @@
       "scripthost"
     ]
   },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+  ],
   "exclude": [
     "node_modules",
     "unpackage",
-    "src/**/*.nvue"
+    "src/**/*.nvue",
+    "dist"
   ]
 }

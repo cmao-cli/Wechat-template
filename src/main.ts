@@ -1,6 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
 
-Vue.config.productionTip = false
+(App as any).mpType = 'app';
 
-new App().$mount()
+Vue.config.productionTip = false;
+
+const app = new Vue({
+  // 可以放store
+  ...App,
+});
+
+app.$mount();

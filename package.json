@@ -5,9 +5,11 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
     "build": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build",
+    "lint": "vue-cli-service lint",
     "info": "node node_modules/@dcloudio/vue-cli-plugin-uni/commands/info.js"
   },
   "dependencies": {
+    "core-js": "^3.3.2",
     "@dcloudio/uni-h5": "^2.0.0-24220191115006",
     "@dcloudio/uni-helper-json": "*",
     "@dcloudio/uni-mp-weixin": "^2.0.0-24220191115006",
@@ -29,10 +31,16 @@
     "@dcloudio/vue-cli-plugin-uni-optimize": "^2.0.0-24220191115006",
     "@dcloudio/webpack-uni-mp-loader": "^2.0.0-24220191115006",
     "@dcloudio/webpack-uni-pages-loader": "^2.0.0-24220191115006",
+    "@types/vue": "^2.0.0",
     "@vue/cli-plugin-babel": "3.5.1",
+    "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-plugin-typescript": "^3.5.1",
     "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
     "babel-plugin-import": "^1.11.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
     "postcss-comment": "^2.0.0",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.6.10"
