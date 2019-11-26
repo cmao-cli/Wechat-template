@@ -4,7 +4,8 @@
   "description": "小程序模板",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "./node_modules/typescript/bin/tsc",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/cmao-cli/Wechat-template/issues"
   },
-  "homepage": "https://github.com/cmao-cli/Wechat-template#readme"
+  "homepage": "https://github.com/cmao-cli/Wechat-template#readme",
+  "dependencies": {
+    "miniprogram-api-typings": "^2.8.3-1",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {}
 }
