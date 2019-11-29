@@ -6,7 +6,6 @@ import App from './App.vue';
 Vue.config.productionTip = false;
 
 const app = new Vue({
-  // 可以放store
   ...App,
 });
 
