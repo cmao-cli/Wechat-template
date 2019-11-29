@@ -42,9 +42,9 @@ npm run build
 文件的详细说明，请参阅： https://uniapp.dcloud.io/collocation/pages
 
 ## 使用说明
-### 1、使用 `yuumi` 拉取该模版到项目目录下
-### 2、将 `appId` 填入 `src/manifest.json` 文件中的  `mp-weixin` 下的 `appid` 字段中
-### 3、`npm install` & `npm run start`
-### 4、打开微信开发者工具，选择小程序 -> 添加 -> 导入项目 -> 目录选择项目目录下的 `dist/dev/mp-weixin` (即框架编译出的对应环境的小程序代码包)
-### 5、enjoy coding
+#### 1、使用 `yuumi` 拉取该模版到项目目录下
+#### 2、将 `appId` 填入 `src/manifest.json` 文件中的  `mp-weixin` 下的 `appid` 字段中
+#### 3、`npm install` & `npm run start`
+#### 4、打开微信开发者工具，选择小程序 -> 添加 -> 导入项目 -> 目录选择项目目录下的 `dist/dev/mp-weixin` (即框架编译出的对应环境的小程序代码包)
+#### 5、enjoy coding
 
